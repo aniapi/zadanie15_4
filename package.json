@@ -1,0 +1,26 @@
+{
+  "name": "zadanie15_4",
+  "version": "1.0.0",
+  "main": "script-compiled.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel script.js --watch --out-file script-compiled.js",
+    "start nodemon": "nodemon script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "babel-standalone": "^6.26.0",
+    "browser-sync": "^2.21.0",
+    "html": "^1.0.0",
+    "jshint": "^2.9.5",
+    "nu-html-checker": "^0.1.0",
+    "react": "^16.2.0"
+}
